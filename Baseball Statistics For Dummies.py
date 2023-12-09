@@ -58,7 +58,6 @@ while True:
           print(df[["last_name, first_name", "ab"]][df.ab==df.ab.max()])
           print(print_spacing)
           print("Here are the top 10 players in the At Bats category for the 2023 season")
-          print("Press the 'X' in the top right of the graph to continue.")
           print(print_spacing)
           top_players = df.nlargest(10, 'ab')  # You can replace 'home_run' with the desired statistic
           plt.bar(top_players['last_name, first_name'], top_players['ab'])  # Replace 'home_run' accordingly
@@ -83,7 +82,6 @@ while True:
           print(df[["last_name, first_name", "hit"]][df.hit==df.hit.max()])
           print(print_spacing)
           print("Here are the top 10 players in the Hits category for the 2023 season")
-          print("Press the 'X' in the top right of the graph to continue.")
           print(print_spacing)
           top_players = df.nlargest(10, 'hit')  # You can replace 'home_run' with the desired statistic
           plt.bar(top_players['last_name, first_name'], top_players['hit'])  # Replace 'home_run' accordingly
@@ -107,7 +105,6 @@ while True:
         print(df[["last_name, first_name", "home_run"]][df.home_run==df.home_run.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Home Runs category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'home_run')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['home_run'])  # Replace 'home_run' accordingly
@@ -131,7 +128,6 @@ while True:
         print(df[["last_name, first_name", "strikeout"]][df.strikeout==df.strikeout.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Strikeouts category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'strikeout')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['strikeout'])  # Replace 'home_run' accordingly
@@ -155,7 +151,6 @@ while True:
         print(df[["last_name, first_name", "batting_avg"]][df.batting_avg==df.batting_avg.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Batting Average category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'batting_avg')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['batting_avg'])  # Replace 'home_run' accordingly
@@ -180,7 +175,6 @@ while True:
         print(df[["last_name, first_name", "slg_percent"]][df.slg_percent==df.slg_percent.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Slugging Percentage category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'slg_percent')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['slg_percent'])  # Replace 'home_run' accordingly
@@ -205,7 +199,6 @@ while True:
         print(df[["last_name, first_name", "on_base_percent"]][df.on_base_percent==df.on_base_percent.max()])
         print(print_spacing)
         print("Here are the top 10 players in the On-Base Percentage category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'on_base_percent')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['on_base_percent'])  # Replace 'home_run' accordingly
@@ -228,7 +221,6 @@ while True:
         print(df[["last_name, first_name", "on_base_plus_slg"]][df.on_base_plus_slg==df.on_base_plus_slg.max()])
         print(print_spacing)
         print("Here are the top 10 players in the OPS category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'on_base_plus_slg')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['on_base_plus_slg'])  # Replace 'home_run' accordingly
@@ -252,7 +244,6 @@ while True:
         print(df[["last_name, first_name", "b_rbi"]][df.b_rbi==df.b_rbi.max()])
         print(print_spacing)
         print("Here are the top 10 players in the RBI category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'b_rbi')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['b_rbi'])  # Replace 'home_run' accordingly
@@ -276,7 +267,6 @@ while True:
         print(df[["last_name, first_name", "r_run"]][df.r_run==df.r_run.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Runs category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'r_run')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['r_run'])  # Replace 'home_run' accordingly
@@ -300,7 +290,6 @@ while True:
         print(df[["last_name, first_name", "b_total_bases"]][df.b_total_bases==df.b_total_bases.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Total Bases category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'b_total_bases')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['b_total_bases'])  # Replace 'home_run' accordingly
@@ -325,7 +314,6 @@ while True:
         print(df[["last_name, first_name", "r_total_stolen_base"]][df.r_total_stolen_base==df.r_total_stolen_base.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Stolen Bases category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'r_total_stolen_base')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['r_total_stolen_base'])  # Replace 'home_run' accordingly
@@ -349,7 +337,6 @@ while True:
         print(df[["last_name, first_name", "r_total_caught_stealing"]][df.r_total_caught_stealing==df.r_total_caught_stealing.max()])
         print(print_spacing)
         print("Here are the top 10 players in the Caught Stealing category for the 2023 season")
-        print("Press the 'X' in the top right of the graph to continue.")
         print(print_spacing)
         top_players = df.nlargest(10, 'r_total_caught_stealing')  # You can replace 'home_run' with the desired statistic
         plt.bar(top_players['last_name, first_name'], top_players['r_total_caught_stealing'])  # Replace 'home_run' accordingly
@@ -393,7 +380,6 @@ while True:
       print(df[["last_name, first_name", "bacon"]][df.bacon==df.bacon.max()])
       print(print_spacing)
       print("Here are the top 10 players in the BACON category for the 2023 season")
-      print("Press the 'X' in the top right of the graph to continue.")
       print(print_spacing)
       top_players = df.nlargest(10, 'bacon')  # You can replace 'home_run' with the desired statistic
       plt.bar(top_players['last_name, first_name'], top_players['bacon'])  # Replace 'home_run' accordingly
@@ -422,7 +408,6 @@ while True:
       print(df[["last_name, first_name", "barrel"]][df.barrel==df.barrel.max()])
       print(print_spacing)
       print("Here are the top 10 players in the Barrels category for the 2023 season")
-      print("Press the 'X' in the top right of the graph to continue.")
       print(print_spacing)
       top_players = df.nlargest(10, 'barrel')  # You can replace 'home_run' with the desired statistic
       plt.bar(top_players['last_name, first_name'], top_players['barrel'])  # Replace 'home_run' accordingly
@@ -480,7 +465,6 @@ while True:
       print(df[["last_name, first_name", "n_outs_above_average"]][df.n_outs_above_average==df.n_outs_above_average.max()])
       print(print_spacing)
       print("Here are the top 10 players in the Outs Above Average category for the 2023 season")
-      print("Press the 'X' in the top right of the graph to continue.")
       print(print_spacing)
       top_players = df.nlargest(10, 'n_outs_above_average')  # You can replace 'home_run' with the desired statistic
       plt.bar(top_players['last_name, first_name'], top_players['n_outs_above_average'])  # Replace 'home_run' accordingly
@@ -508,7 +492,6 @@ while True:
       print(df[["last_name, first_name", "sprint_speed"]][df.sprint_speed==df.sprint_speed.max()])
       print(print_spacing)
       print("Here are the top 10 players in the Sprint Speed category for the 2023 season")
-      print("Press the 'X' in the top right of the graph to continue.")
       print(print_spacing)
       top_players = df.nlargest(10, 'sprint_speed')  # You can replace 'home_run' with the desired statistic
       plt.bar(top_players['last_name, first_name'], top_players['sprint_speed'])  # Replace 'home_run' accordingly
